@@ -9,6 +9,7 @@
 		<title>初生宝贝</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="keywords" content="新生儿录像,初生宝贝,监控,产房,高清视频,代理,宝宝纪念视频" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	    <script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -17,6 +18,16 @@
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/av.js"></script>
 		<script src="assets/js/main.js"></script>
+		<script src="assets/js/move-top.js"></script>
+		<script type="text/javascript" src="assets/js/easing.js"></script>	
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	    </script>
 	</head>
 	<body>
 
@@ -68,6 +79,45 @@
 				</div>
 			</article>
 
+			<article class="container box style2">
+				<div class="video" id="demo">
+					<div class="video-main">
+						<a><span class="play-icon popup-with-zoom-anim" href="#small-dialog5"></span></a><br />
+					</div>
+					<div id="small-dialog5" class="mfp-hide">
+						<video src="http://csrbaby-1253309441.costj.myqcloud.com/demo.mp4" width="620" height="481" preload="true" controls="controls">
+				    </div>
+					 <script>
+							$(document).ready(function() {
+								$('.popup-with-zoom-anim').magnificPopup({
+									type: 'inline',
+									fixedContentPos: false,
+									fixedBgPos: true,
+									overflowY: 'auto',
+									closeBtnInside: true,
+									preloader: false,
+									midClick: true,
+									removalDelay: 300,
+									mainClass: 'my-mfp-zoom-in'
+								});														
+							});
+					</script>								  
+					<script type="text/javascript" src="assets/js/modernizr.custom.53451.js"></script>  
+					<link href="assets/css/popuo-box.css" rel="stylesheet" type="text/css" media="all">
+					<script src="assets/js/jquery.magnific-popup.js" type="text/javascript"></script>
+				</div>
+			</article>
+
+			<article class="container box style1 right">
+				<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+				<div class="inner">
+					<header>
+						<h2>项目的部署</h2>
+					</header>
+					<p>产房安装摄像头，拍摄宝宝断脐、称重、穿衣等过程，全程使用iPad操作，无线指挥摄像头工作，录制视频保存到电脑，再通过电脑合成精美视频，完全避开产妇隐私，画面只有宝宝。</p>
+				</div>
+			</article>
+
 		<!-- Portfolio -->
 			<article class="container box style2">
 				<header>
@@ -76,17 +126,27 @@
 				</header>
 				<div class="inner gallery">
 					<div class="row 0%">
-						<div class="3u 12u(mobile)"><a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" alt="" title="Ad infinitum" /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" alt="" title="Dressed in Clarity" /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" alt="" title="Raven" /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" alt="" title="I'll have a cup of Disneyland, please" /></a></div>
+						<div class="3u 12u(mobile)"><a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" alt="" title="安徽兴华医院部署" /></a></div>
+						<div class="3u 12u(mobile)"><a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" alt="" title="产房部署海康威视摄像机" /></a></div>
+						<div class="3u 12u(mobile)"><a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" alt="" title="iPad操作界面" /></a></div>
+						<div class="3u 12u(mobile)"><a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" alt="" title="iPad操作界面" /></a></div>
 					</div>
 					<div class="row 0%">
-						<div class="3u 12u(mobile)"><a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" alt="" title="Cherish" /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" alt="" title="Different." /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/fulls/07.jpg" class="image fit"><img src="images/thumbs/07.jpg" alt="" title="History was made here" /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/fulls/08.jpg" class="image fit"><img src="images/thumbs/08.jpg" alt="" title="People come and go and walk away" /></a></div>
+						<div class="3u 12u(mobile)"><a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" alt="" title="iPad刻录界面" /></a></div>
+						<div class="3u 12u(mobile)"><a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" alt="" title="支持多个iPad同时操作" /></a></div>
+						<div class="3u 12u(mobile)"><a href="images/fulls/07.jpg" class="image fit"><img src="images/thumbs/07.jpg" alt="" title="iPad上观看录像" /></a></div>
+						<div class="3u 12u(mobile)"><a href="images/fulls/08.jpg" class="image fit"><img src="images/thumbs/08.jpg" alt="" title="精美宝宝册" /></a></div>
 					</div>
+				</div>
+			</article>
+
+			<article class="container box style1 left">
+				<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+			    <div class="inner">
+					<header>
+						<h2>合作模式</h2>
+					</header>
+					<p>一、医院直营模式：欢迎医院领导来电洽谈合作，利润分成详谈;<br>二、代理模式：面向非医院工作人员，设备直销，收取少量设备维护费;<br>电话咨询:136-0100-3321(陈女士)<br>微信:cwx88515<br>邮箱:wendy.cwx@qq.com</p>
 				</div>
 			</article>
 
@@ -147,5 +207,11 @@
 	        })
 	      }
         </script>
+       <script type="text/javascript">
+		$(document).ready(function() {
+			$().UItoTop({ easingType: 'easeOutQuart' });	
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 	</body>
 </html>
