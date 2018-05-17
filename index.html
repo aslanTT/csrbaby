@@ -156,7 +156,7 @@
 				<header>
 					<h2>联系我们</h2>
 				</header>
-				<form>
+				<form target="nm_iframe">
 					<div class="row 50%">
 						<div class="6u 12u$(mobile)"><input type="text" class="text" id="name" name="name" placeholder="您的称呼" /></div>
 						<div class="6u$ 12u$(mobile)"><input type="text" class="text" name="mobile" id="mobile" placeholder="您的手机号" /></div>
@@ -165,11 +165,12 @@
 						</div>
 						<div class="12u$">
 							<ul class="actions">
-							    <input type="submit" value="提交" onclick="didClickSubmit()"/>
+							    <input type="submit" value="提交" onclick="return didClickSubmit()"/>
 							</ul>
 						</div>
 					</div>
 				</form>
+				<iframe id="id_iframe" name="nm_iframe" style="display:none;"></iframe>  
 			</article>
 		<section id="footer">
 			<div class="copyright">
